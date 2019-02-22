@@ -114,3 +114,8 @@
 - http://cssspecificity.com/
 - https://www.khanacademy.org/computing/computer-programming/html-css/more-css-selectors/e/quiz--css-specificity-rules
 - https://medium.com/@dte/understanding-css-selector-specificity-a02238a02a59
+
+
+
+
+https://www.youtube.com/watch?v=_s15i3MoAyE

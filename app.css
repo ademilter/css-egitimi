@@ -1,0 +1,172 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 400px;
+  color: #444;
+  padding-top: 60px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.site-header {
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}
+
+.site-logo {
+  margin-left: 40px;
+}
+
+.site-search {
+  width: 30px;
+  height: 30px;
+  background-color: #CCC;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+
+.cover-photo {
+  overflow: hidden;
+  background: url("img/bg-mobile.jpeg");
+  background-size: cover;
+}
+
+.aspect-ratio-box {
+  height: 0;
+  overflow: hidden;
+  padding-top: 50%;
+  position: relative;
+}
+
+.cover-photo img {
+  width: 100%;
+}
+
+
+@media (min-width: 1200px) {
+  .cover-photo {
+    height: auto;
+    padding-top: 0;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    width: 500px;
+    background-image: url("img/bg.jpeg");
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-content {
+    padding-left: 530px;
+  }
+}
+
+.site-body {
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 660px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+  .site-body {
+    margin-left: 0;
+  }
+}
+
+.category {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid;
+}
+
+.category-title {
+  color: #8346D9
+}
+
+.category-description {
+
+}
+
+.article {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.article:last-child {
+  margin-bottom: 0;
+}
+
+.article-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-text .content {
+  margin-bottom: 10px;
+}
+
+.article-title {
+  font-size: 24px;
+}
+
+.article-description {
+  color: #999;
+}
+
+.article-info {
+  margin-top: auto;
+}
+
+.article-author {
+  font-size: .9em;
+  color: inherit;
+}
+
+.article-meta {
+  color: #999;
+  display: flex;
+  align-items: center;
+}
+
+.article-meta li {
+  margin-right: 5px;
+}
+
+.article-meta li:not(:first-child):before {
+  content: "-";
+  margin-right: 5px;
+}
+
+.article-photo {
+  flex-shrink: 0;
+  width: 200px;
+  margin-left: 30px;
+}
+
+

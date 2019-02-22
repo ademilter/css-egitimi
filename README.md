@@ -60,6 +60,13 @@
 - Görünüm özellikleri: visibility, display, opacity
 - Geçiş animasyonu: transition
 - Display özelliğine derin bakış
+- pseudo classes & elements
+
+#### Kaynak
+- https://www.w3schools.com/cssref/css_selectors.asp
+- https://w3reign.com/difference-between-pseudo-class-and-pseudo-element/
+- https://fatihhayrioglu.com/pseudo-siniflari-ve-pseudo-elementleri/
+- https://css-tricks.com/examples/nth-child-tester/
 
 ---
 
@@ -97,3 +104,9 @@
 - Cascading, inheritance, and specificity
 - Değişken tanımlamak ve kullanmak
 - calc() fonksiyonu
+
+#### Kaynak
+- https://specificity.keegan.st/
+- http://cssspecificity.com/
+- https://www.khanacademy.org/computing/computer-programming/html-css/more-css-selectors/e/quiz--css-specificity-rules
+- https://medium.com/@dte/understanding-css-selector-specificity-a02238a02a59

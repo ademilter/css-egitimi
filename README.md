@@ -6,34 +6,41 @@
 - Renk kullanımı (hex, rgb, rgba)
 - Bağlantı (link) durumlarını stillendirmek
 - Listeler ve özellikleri
+- Yazı özellikleri (font, text-align, line-height)
+- Kenar çizgisi: border
+- Sayfada görsel kullanımı
 - Temel ölçü birimleri (px, em, rem, %)
 
-#### Uygulama
-- Basit bir blog ve detay sayfası yap.
-- Blog yazısına link ver ve detaya git.
+#### Kaynak
+- https://www.w3schools.com/cssref/css_selectors.asp
+- https://www.w3schools.com/cssref/pr_font_font.asp
 
+---
 
 ## 2) Kutu Modeli
-- Kutu modelini anlamak: box-sizing
-- Genişlik ve Yükseklik
 - Block ve inline elementler
+- Genişlik ve Yükseklik
 - İç ve dış boşluklar: margin, padding
-- Kenar çizgisi: border
+- Kutu modelini anlamak: box-sizing
 - Minimum ve maksimum ölçü vermek
 
-#### Uygulama
-- Sayfanın kutu modeli yapısını border-box olarak değiştir.
-- İçerik genişliğini max:800px olacak şekilde ayarla ve ortala.
+#### Kaynak
+- https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+- https://www.youtube.com/watch?v=0G1Q7wRjuTA&t=25s
 
+---
 
 ## 3) Tarayıcılar ve Davranışları
-- Tarayıcı CSS'i nasıl yorumlar
 - Ön tanımlı gelen CSS özellikleri
+- Tarayıcı Farklılıkları ve Ön Ekler (prefix)
 - Normalize.css ve reset.css
 
-#### Uygulama
-- Sayfayana normalize veya reset css ekle.
+#### Kaynak
+- https://caniuse.com/
+- https://autoprefixer.github.io/
+- https://www.youtube.com/watch?v=0G1Q7wRjuTA&t=25s
 
+---
 
 ## 4) Pozisyon ve Katmanlar
 - Konumlandırma: position
@@ -41,43 +48,52 @@
 - Taşma özelliği: overflow
 - Transform
 
-#### Uygulama
-- Blog sayfana logo ekle.
-	-  Sol üst köşede sabit dursun.
-	-  Diğer elemanların üstünde görünsün (z ekseninde)
-
 #### Kaynak
 - https://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/
+- https://www.youtube.com/watch?v=_FLV6X0druY&t=2s
 
+---
 
-## 5) Float ile Yüzen Kutular
-- Yanaştırma özelliği: float
-- Yanaşmayı bitirmek: clear
-- float ile gelen taşma problemi ve çözümü (clearfix hack)
-
-#### Uygulama
-- Blog yazısındaki görselleri sola yaslayın.
-
-
-
-## 6) Orta Seviye Önemli Bilgiler
+## 5) Orta Seviye Önemli Bilgiler
 - Gelişmiş seçiciler
-- CSS sayfasına başka bir CSS sayfa çağırmak: @import
+- inherit
 - Görünüm özellikleri: visibility, display, opacity
 - Geçiş animasyonu: transition
 - Display özelliğine derin bakış
 
+---
+
+## 6) Float ile Yüzen Kutular
+- Yanaştırma özelliği: float
+- Yanaşmayı bitirmek: clear
+- float ile gelen taşma problemi ve çözümü (clearfix hack)
+
+#### Kaynak
+- http://nicolasgallagher.com/micro-clearfix-hack/
+
+---
 
 ## 7) Özel yazı tipleri kullanmak
 - @font-face
 - Google font servisi
 
+#### Kaynak
+- https://transfonter.org/
+- https://css-tricks.com/snippets/css/using-font-face/
+
+---
+
 ## 8) Ekran duyarlı tasarım (responsive)
+- media-query
+- mobile-first responsive
 
+#### Kaynak
+- https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints
+- https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first
 
+---
 
 ## 9) İleri Seviye Ek Bilgiler
 - Cascading, inheritance, and specificity
 - Değişken tanımlamak ve kullanmak
-- cacl() fonksiyonu
-- Tarayıcı Farklılıkları ve Ön Ekler (prefix)
+- calc() fonksiyonu

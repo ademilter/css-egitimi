@@ -14,6 +14,8 @@
 #### Kaynak
 - https://www.w3schools.com/cssref/css_selectors.asp
 - https://www.w3schools.com/cssref/pr_font_font.asp
+- https://www.wikiwand.com/tr/Web_renkleri
+- https://www.rapidtables.com/convert/color/rgb-to-hex.html
 
 ---
 
@@ -91,10 +93,12 @@
 ---
 
 ## 8) Ekran duyarlı tasarım (responsive)
+- viewport etiketi
 - media-query
 - mobile-first responsive
 
 #### Kaynak
+- https://fatihhayrioglu.com/meta-viewport-etiketi/
 - https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints
 - https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first
 
